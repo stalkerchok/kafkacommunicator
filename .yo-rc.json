@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.reunico"
+    },
+    "jhipsterVersion": "6.9.1",
+    "applicationType": "microservice",
+    "baseName": "kafkacommunicator",
+    "packageName": "com.reunico",
+    "packageFolder": "com/reunico",
+    "serverPort": "8099",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaa",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODFmMmZmM2U3N2U2MjgxNzc2YzE5MzI2YmU0M2ZkMzgzNWY3MTRiMjY2ODhhNDlhMTQ4MmZjMjFjMzhjODQ0MGUxYjlmZTdkZDRhNzQzOTUzMjBmYjBlYjU3ZWUyNWMwZTgzYmVmMzU4NmQyZWMzY2VmZWZlMGYxYzcxMGQzMTM=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1595430635823,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

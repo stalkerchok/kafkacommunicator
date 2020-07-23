@@ -109,6 +109,15 @@ spring:
     name: kafkacommunicator
   jmx:
     enabled: false
+  cloud:
+    stream:
+      kafka:
+        binder:
+          brokers: 84.201.174.187
+      bindings:
+        output:
+          destination: notification
+          content-type: application/json
   data:
     jpa:
       repositories:
